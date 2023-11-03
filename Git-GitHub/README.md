@@ -14,7 +14,7 @@
 - git restore --staged: Retira a modificação da área de staged e joga para área de modified.
 - git push: Após todo circuito feito, este comando joga todas as alterações para o repositório remoto.
 - git remote: Comando para ver todas as relações com o repositório remoto.
-- git pull: 
+- git pull: Comando que puxa as atualizações feitas no repositório remoto.
 
 ## Estados do Git
 
