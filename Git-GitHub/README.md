@@ -19,6 +19,7 @@
 - git branch: Comando para criar uma nova branch.
 - git log --oneline --decorate: Comando que ajuda a identificar em qual branch você está.
 - git checkout: Comando para mudar de branch.
+- git merge: Puxa arquivos de outra branch.
 
 ## Estados do Git
 
