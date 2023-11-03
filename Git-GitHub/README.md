@@ -17,6 +17,8 @@
 - git pull: Comando que puxa as atualizações feitas no repositório remoto.
 - git fetch: Comando que verifica o que vai alterado antes do git pull.
 - git branch: Comando para criar uma nova branch.
+- git log --oneline --decorate: Comando que ajuda a identificar em qual branch você está.
+- git checkout: Comando para mudar de branch.
 
 ## Estados do Git
 
