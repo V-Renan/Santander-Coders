@@ -16,6 +16,7 @@
 - git remote: Comando para ver todas as relações com o repositório remoto.
 - git pull: Comando que puxa as atualizações feitas no repositório remoto.
 - git fetch: Comando que verifica o que vai alterado antes do git pull.
+- git branch: Comando para criar uma nova branch.
 
 ## Estados do Git
 
