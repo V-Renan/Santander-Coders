@@ -15,7 +15,7 @@
 - git push: Após todo circuito feito, este comando joga todas as alterações para o repositório remoto.
 - git remote: Comando para ver todas as relações com o repositório remoto.
 - git pull: Comando que puxa as atualizações feitas no repositório remoto.
-
+- git fetch:
 ## Estados do Git
 
 Untracked: São arquivos que estão no local mas ainda não estão rastreados.
