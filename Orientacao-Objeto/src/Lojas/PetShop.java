@@ -15,5 +15,10 @@ public class PetShop {
     }
 
     public void tosar(Cachorro cachorro) {
+        cachorro.setEstadoDeEspirito("Tosado");
+    }
+
+    public void deixarNoHotel(Animal animal) {
+        animal.setEstadoDeEspirito("com saudades");
     }
 }

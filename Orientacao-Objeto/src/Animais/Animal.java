@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @date 11/8/2023$
  * Description:
  */
-public class Animal{
+public abstract class Animal{
 
     protected String nome;
     protected String cor;
@@ -26,9 +26,7 @@ public class Animal{
 
     protected void dormir(){}
 
-    public void soar() {
-        System.out.println(" cri cri");
-    }
+    public abstract void soar();
 
     public String interagir(int acao) {
         this.estadoDeEspirito = "neutro";
@@ -95,5 +93,9 @@ public class Animal{
 
     public void setEstadoDeEspirito(String estadoDeEspirito) {
         this.estadoDeEspirito = estadoDeEspirito;
+    }
+
+    public String toString() {
+        return "Nome: " + getNome() + "\nstatus: " + getEstadoDeEspirito();
     }
 }
