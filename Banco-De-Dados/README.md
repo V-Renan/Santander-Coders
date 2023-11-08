@@ -1,4 +1,4 @@
-# # Curso Santander Coders: GBanco de Dados
+# # Curso Santander Coders: Banco de Dados
 
 ## Tipo de dados
 
