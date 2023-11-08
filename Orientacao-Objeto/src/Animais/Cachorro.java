@@ -7,87 +7,17 @@ import java.util.Scanner;
  * @date 11/8/2023$
  * Description:
  */
-public class Cachorro {
+public class Cachorro extends Animal{
 
 
-    static int numerosCachorros;
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
-    private int tamanhoRabo;
-    private String estadoDeEspirito;
-
-    public Cachorro(){}
-    public Cachorro(String nome, String cor, int altura, double peso, int tamanhoRabo) {
-        this.nome = nome;
-        this.cor = cor;
-        this.altura = altura;
-        this.peso = peso;
-        this.tamanhoRabo =tamanhoRabo;
-
-        numerosCachorros++;
+    public Cachorro(String nome, String cor, int altura, double peso) {
+        super(nome, cor, altura, peso);
     }
 
-    public static int getNumerosCachorros() {
-        return numerosCachorros;
-    }
-
-    public static void setNumerosCachorros(int numerosCachorros) {
-        Cachorro.numerosCachorros = numerosCachorros;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCor() {
-        return cor;
-    }
-
-    public void setCor(String cor) {
-        this.cor = cor;
-    }
-
-    public int getAltura() {
-        return altura;
-    }
-
-    public void setAltura(int altura) {
-        this.altura = altura;
-    }
-
-    public double getPeso() {
-        return peso;
-    }
-
-    public void setPeso(double peso) {
-        this.peso = peso;
-    }
-
-    public int getTamanhoRabo() {
-        return tamanhoRabo;
-    }
-
-    public void setTamanhoRabo(int tamanhoRabo) {
-        this.tamanhoRabo = tamanhoRabo;
-    }
-
-    public String getEstadoDeEspirito() {
-        return estadoDeEspirito;
-    }
-
-
-    public void comer() {
-
-    }
     public void soar() {
         System.out.println(getNome() + ": Au Au");
     }
+
     public String pegar() {
         return "O " + getNome() + " pegou uma Bolinha";
     }

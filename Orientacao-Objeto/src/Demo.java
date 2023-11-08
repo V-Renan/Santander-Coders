@@ -11,7 +11,7 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        Cachorro cachorro1 = new Cachorro("Maggie", "Caramelo", 25, 5.5, 5);
+        Cachorro cachorro1 = new Cachorro("Maggie", "Caramelo", 25, 5.5);
         cachorro1.menu();
         System.out.println();
 

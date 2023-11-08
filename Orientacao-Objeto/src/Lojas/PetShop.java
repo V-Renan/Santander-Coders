@@ -1,5 +1,8 @@
 package Lojas;
 
+import Animais.Animal;
+import Animais.Cachorro;
+
 /**
  * @author Victor$
  * @date 11/8/2023$
@@ -7,7 +10,10 @@ package Lojas;
  */
 public class PetShop {
 
-    public void darBanho() {
+    public void darBanho(Animal animal) {
+        animal.setEstadoDeEspirito("Limpo");
+    }
 
+    public void tosar(Cachorro cachorro) {
     }
 }
